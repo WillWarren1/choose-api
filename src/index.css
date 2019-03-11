@@ -10,3 +10,42 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+section {
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+}
+figure {
+  margin: 1rem;
+}
+
+.hide {
+  display: none;
+}
+
+.unhide {
+  width: 100%;
+  margin-left: 35%;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+nav {
+  margin: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+main {
+  margin-left: 5%;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+}
