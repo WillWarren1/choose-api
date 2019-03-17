@@ -4,6 +4,7 @@ import axios from 'axios'
 export default function Dog() {
   const [dog, setDog] = useState('')
   const [classHidden, setClassHidden] = useState('hide')
+
   useEffect(() => {
     axios.get('https://dog.ceo/api/breeds/image/random').then(resp => {
       console.log(resp.data.message)
